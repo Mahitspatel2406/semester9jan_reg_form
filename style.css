@@ -1,0 +1,81 @@
+body{
+    margin: 20px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E3F2FD; /* Light Blue Background */
+}
+label{
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: auto;
+    color: #1E3A8A; /* Navy Blue */
+}
+h1 , h2{
+    text-align: center;
+    background-color:#0D47A1; /* Dark Blue */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+form{
+    background-color : #FFFFFF ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 700px;
+}
+.radio_group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:row;
+    gap: 35px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.radio_group input {
+    width: auto;
+    margin-right: 5px;  
+    accent-color: #1565C0; /* Blue Accent */
+}
+.submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1976D2; /* Bright Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color:#0D47A1; /* Darker Blue */
+}
+.reset-btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #D32F2F; /* Deep Red */
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.reset-btn:hover{
+    background-color:#B71C1C; /* Darker Red */
+}
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border: 1px solid #90A4AE; /* Subtle Blue-Gray */
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #374151;
+}
+span{
+    font-size: larger;
+    color: #1E3A8A;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPSC REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="gpsc">GPSC REGISTRATION</h1>
+    <HR>
+
+        <form method="post">
+        <H2 id="personal_d">PERSONAL DETAILS</H2>
+
+        <label for="title">Title</label>
+        <select name="select" id="title">
+            <option value="mr">Mr</option>
+            <option value="mrs">Mrs</option>
+            <option value="ms">Ms</option>
+        </select>
+
+
+        <label for="surname">Surname*</label>
+
+        <input type="text" name="name" id="surname" required>
+
+
+
+
+        <label for="firstname">Firstname*</label>
+
+        <input type="text" name="name" id="Firstname" required>
+
+        <label for="fathername">Father/Husbandname*</label>
+
+        <input type="text" name="name" id="fathername" required>
+
+
+        <label for="mothername">Mothername*</label>
+
+        <input type="text" name="name" id="mothername" required>
+
+        <span>Gender</span><br>
+        <div class="radio_group">
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label><br>
+        </div>
+        <!-- <br> -->
+
+        <label for="birthdate">Date Of Birth</label>
+        <input type="date" name="birthdate" id="birthdate" required>
+
+        <span>MaritalStatus*</span>
+        <div class="radio_group">
+            <input type="radio" name="Marital_status" id="married">
+            <label for="married">Married</label>
+            <input type="radio" name="Marital_status" id="unmarried">
+            <label for="unmarried">Unmarried</label>
+            <input type="radio" name="Marital_status" id="separated">
+            <label for="separated">Separated</label>
+        </div>
+        <!-- <br> -->
+        <span>Category</span>
+        <div id="select_category">
+            <select name="category" id="category">
+                <option value="select">Select</option>
+                <option value="general">General</option>
+                <option value="general-ews">General-EWS</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+                <option value="obc">OBC</option>
+            </select>
+        </div>
+        <!-- <br> -->
+
+        <h2>Communication Details</h2>
+        <span>State</span>
+        <select name="state" id="state">
+            <option value="gujarat">Gujarat</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="maharastra">Maharastra</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="jammu & kashmir">Jammu & Kashmir</option>
+            <option value="tamil nadu">Tamil nadu</option>
+            <option value="goa">Goa</option>
+            <option value="delhi">Delhi</option>
+            <option value="punjab">Punjab</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="up">UP</option>
+            <option value="mp">MP</option>
+        </select>
+        <span>Address*</span>
+        <textarea name="address" id="add" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+
+        
+        <button type="submit" class="submit-btn">Submit</button>
+        <button type="reset" class="reset-btn">Reset</button>
+       
+    </form>
+
+</body>
+
+</html>
