@@ -12,7 +12,7 @@
     <h1 id="gpsc">GPSC REGISTRATION</h1>
     <HR>
 
-        <form method="post">
+    <form  method="post">
         <H2 id="personal_d">PERSONAL DETAILS</H2>
 
         <label for="title">Title</label>
@@ -21,28 +21,29 @@
             <option value="mrs">Mrs</option>
             <option value="ms">Ms</option>
         </select>
-
+        <br>
 
         <label for="surname">Surname*</label>
 
         <input type="text" name="name" id="surname" required>
 
-
+        <br>
 
 
         <label for="firstname">Firstname*</label>
 
         <input type="text" name="name" id="Firstname" required>
-
+        <br>
         <label for="fathername">Father/Husbandname*</label>
 
         <input type="text" name="name" id="fathername" required>
 
-
+        <br>
         <label for="mothername">Mothername*</label>
 
         <input type="text" name="name" id="mothername" required>
-
+        <br>
+        <br>
         <span>Gender</span><br>
         <div class="radio_group">
             <input type="radio" name="gender" id="male" required>
@@ -52,11 +53,13 @@
             <input type="radio" name="gender" id="other">
             <label for="other">Other</label><br>
         </div>
-        <!-- <br> -->
+        <br>
+        <br>
 
         <label for="birthdate">Date Of Birth</label>
         <input type="date" name="birthdate" id="birthdate" required>
-
+        <br>
+        <br>
         <span>MaritalStatus*</span>
         <div class="radio_group">
             <input type="radio" name="Marital_status" id="married">
@@ -66,7 +69,8 @@
             <input type="radio" name="Marital_status" id="separated">
             <label for="separated">Separated</label>
         </div>
-        <!-- <br> -->
+        <br>
+        <br>
         <span>Category</span>
         <div id="select_category">
             <select name="category" id="category">
@@ -99,10 +103,10 @@
         <span>Address*</span>
         <textarea name="address" id="add" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
 
-        
+
         <button type="submit" class="submit-btn">Submit</button>
         <button type="reset" class="reset-btn">Reset</button>
-       
+
     </form>
 
 </body>
