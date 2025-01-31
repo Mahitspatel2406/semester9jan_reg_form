@@ -15,7 +15,7 @@ h1{
     padding: 20px;
 }
 .new {
-    background-color: #000000 !important;
+    background-color: #000000;
     color: rgb(255, 255, 255);
     position: sticky;
     padding: 0px;
@@ -63,7 +63,6 @@ label {
 h2 {
     text-align: center;
     background-color: #000000;
-    /* Dark Blue */
     color: white;
     padding: 10px;
     border-radius: 50px;
@@ -75,7 +74,6 @@ form{
     padding: 40px;
     margin: auto;
     margin-top: 100px;
-    float:center;
     border-radius: 100px;
     max-width: 700px;
     /* min-width: 10px  ; */
@@ -157,8 +155,4 @@ select option{
 span{
     font-size: larger;
     color: #000000;
-}
-footer{
-    background-color: white;    
-    padding: 100px;
 }
