@@ -9,8 +9,17 @@
 </head>
 
 <body>
-    <h1 id="gpsc">GPSC REGISTRATION</h1>
-    <HR>
+    <h1 id="gpsc">GPSC REGISTRATION</h1>        
+    <div class="new">
+    <nav class="hero">
+        <a href="http://home" target="_blank" rel="noopener noreferrer">Home</a>
+        <a href="http://Schemes" target="_blank" rel="noopener noreferrer">Schemes</a>
+        <a href="http://Rules" target="_blank" rel="noopener noreferrer">Rules</a>
+        <a href="http://Updates" target="_blank" rel="noopener noreferrer">Updates</a>
+        <a href="http://About" target="_blank" rel="noopener noreferrer">About</a>
+    </nav>
+    </div>
+
 
     <form  method="post">
         <H2 id="personal_d">PERSONAL DETAILS</H2>
@@ -21,45 +30,42 @@
             <option value="mrs">Mrs</option>
             <option value="ms">Ms</option>
         </select>
-        <br>
+
 
         <label for="surname">Surname*</label>
 
         <input type="text" name="name" id="surname" required>
 
-        <br>
 
 
         <label for="firstname">Firstname*</label>
 
         <input type="text" name="name" id="Firstname" required>
-        <br>
+       
         <label for="fathername">Father/Husbandname*</label>
 
         <input type="text" name="name" id="fathername" required>
 
-        <br>
+        
         <label for="mothername">Mothername*</label>
 
         <input type="text" name="name" id="mothername" required>
-        <br>
-        <br>
+        
         <span>Gender</span><br>
         <div class="radio_group">
             <input type="radio" name="gender" id="male" required>
-            <label for="male">Male</label><br>
+            <label for="male">Male</label>
             <input type="radio" name="gender" id="female">
-            <label for="female">Female</label><br>
+            <label for="female">Female</label>
             <input type="radio" name="gender" id="other">
-            <label for="other">Other</label><br>
+            <label for="other">Other</label>
         </div>
-        <br>
         <br>
 
         <label for="birthdate">Date Of Birth</label>
         <input type="date" name="birthdate" id="birthdate" required>
         <br>
-        <br>
+        
         <span>MaritalStatus*</span>
         <div class="radio_group">
             <input type="radio" name="Marital_status" id="married">
@@ -70,7 +76,7 @@
             <label for="separated">Separated</label>
         </div>
         <br>
-        <br>
+       
         <span>Category</span>
         <div id="select_category">
             <select name="category" id="category">
@@ -101,14 +107,18 @@
             <option value="mp">MP</option>
         </select>
         <span>Address*</span>
-        <textarea name="address" id="add" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+        <textarea name="address" id="add" cols="18" rows="5" placeholder="Enter Your Address"></textarea>
 
 
         <button type="submit" class="submit-btn">Submit</button>
         <button type="reset" class="reset-btn">Reset</button>
 
     </form>
+   </div>
+   <hr>
 
+<footer>
+</footer>
 </body>
 
 </html>

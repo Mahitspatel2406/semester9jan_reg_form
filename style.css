@@ -1,81 +1,164 @@
-body{
-    margin: 20px;
+body {
+    margin: 0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #E3F2FD; /* Light Blue Background */
+    font-family: Arial;
+    background-color: #fcfcfc;
+    /* Light Blue Background */
 }
-label{
-    display: block;
-    font-weight: bold;
-    font-size: larger;
-    margin-top: auto;
-    color: #1E3A8A; /* Navy Blue */
-}
-h1 , h2{
+
+h1{
     text-align: center;
-    background-color:#589bff; /* Dark Blue */
+    background-color: #000000;
+    color: white;
+    font-size: xx-large;
+    margin: 0;
+    padding: 20px;
+}
+.new {
+    background-color: #000000 !important;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    padding: 0px;
+    top: 0px;
+}
+
+.hero {
+    background-color: rgb(0, 0, 0);
+    padding: 9px;
+    display: flex ;
+    justify-content: center;    
+    border-style:groove;
+    /* border-radius: 7 px; */
+}
+
+.hero a {
+    /* display:flex; */
+   
+    text-decoration: none;
+    color: #ffffff;
+    font-style: normal;
+    padding: 17px;  
+    /* margin-right: 80px; */
+    width:100px;
+    box-shadow: #15ff00;
+    text-align: center;
+}
+
+.hero :hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+label {
+    
+    /* font-weight: bold; */
+    font-size:larger;
+    margin-top: auto;
+    width: 100%;
+    color: #000000;
+    /* Navy Blue */
+}
+
+h2 {
+    text-align: center;
+    background-color: #000000;
+    /* Dark Blue */
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
+
 form{
-    background-color : #FFFFFF ;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.651);
+    padding: 40px;
     margin: auto;
-    border-radius: 10px;
+    margin-top: 100px;
+    float:center;
+    border-radius: 100px;
     max-width: 700px;
+    /* min-width: 10px  ; */
 }
-.radio_group{
+
+.radio_group {
     margin-top: 10px;
-    display: flex;
-    flex-direction:row;
-    gap: 35px;
-    align-items: center;
+    display: block;
+    flex-direction: row;
+    gap: 40px;
+    /* align-items: center; */
     flex-wrap: wrap;
 }
+
 .radio_group input {
-    width: auto;
-    margin-right: 5px;  
-    accent-color: #1565C0; /* Blue Accent */
+    width: 100px;
+    /* display: flex; */
+    /* margin-right: 5px; */
+    /* accent-color: #1565C0; */
+    /* Blue Accent */
 }
+
 .submit-btn {
     margin-top: 20px;
     width: 100%;
-    padding: 10px;
-    background-color: #1976D2; /* Bright Blue */
+    padding: 15px;
+    background-color: #15ff00;
+    /* Bright Blue */
     color: white;
-    border: none;
-    border-radius: 5px;
+    border-radius: 50px;
+justify-content: center;
+border: none;
     cursor: pointer;
 }
-.submit-btn:hover{
-    background-color:#0D47A1; /* Darker Blue */
+
+.submit-btn:hover {
+    background-color: #33ff00;
+    /* Darker Blue */
+    color: #000000;
 }
-.reset-btn{
+
+.reset-btn {
     margin-top: 20px;
     width: 100%;
-    padding: 10px;
-    background-color: #D32F2F; /* Deep Red */
+    padding: 15px;
+    background-color: #D32F2F;
+    /* Deep Red */
     color: white;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
 }
-.reset-btn:hover{
-    background-color:#B71C1C; /* Darker Red */
+
+.reset-btn:hover {
+    background-color: #B71C1C;
+    /* Darker Red */
 }
-input, select, textarea {
+
+input,
+select,
+textarea {
     width: 100%;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    border: 1px solid #90A4AE; /* Subtle Blue-Gray */
-    border-radius: 4px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    /* Subtle Blue-Gray */
+    border-radius: 29px;
     background-color: #FFFFFF;
-    color: #374151;
+    color: #000000;
+}
+select{
+    width: 102%;
+}
+select option{
+    background-color: #000000;
+    color: #FFFFFF;
 }
 span{
     font-size: larger;
-    color: #1E3A8A;
+    color: #000000;
+}
+footer{
+    background-color: white;    
+    padding: 100px;
 }
