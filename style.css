@@ -5,9 +5,7 @@ body {
     background-color: #fcfcfc;
     /* Light Blue Background */
 }
-.fast{
-    display: block  ;
-}
+
 
 h1{
     text-align: center;
@@ -18,10 +16,11 @@ h1{
     padding: 20px;
 }
 .new {
-    background-color: #000000;
+    /* background-color: #000000; */
     color: rgb(255, 255, 255);
     position: sticky;
-    padding: 0px;
+    padding: 1px;
+    width: 80%;
     top: 0px;
     margin: auto;
 }
@@ -32,6 +31,7 @@ h1{
     display: flex ;
     justify-content: center;    
     border-style:groove;
+    border-radius: 1000px
     /* border-radius: 700px; */
 }
 
@@ -41,7 +41,7 @@ h1{
     font-style: normal;
     padding: 12px;  
     width:100px;
-    box-shadow: #15ff00;
+    /* box-shadow: #000000; */
     text-align: center;
 }
 
@@ -70,9 +70,10 @@ h2 {
 }
 
 form{
+    display: grid ;
     background-color: #ffffff;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.651);
-    padding: 40px;
+    padding: 50px;
     margin: auto;
     margin-top: 100px;
     border-radius: 100px;
@@ -156,19 +157,21 @@ select option{
 span{
     font-size: larger;
     color: #000000;
+    /* display: block; */
 }
 .footer{
     text-align: center;
 }
-.captcha-input {
+.captcha-input  {
+    display:flex;
     margin-top: 10px;
     padding: 5px;
-    /* width: 100px; */
+    
     text-align: center;
+    width: 100%;
 }
 .captcha-box {
     display: flex;
-    align-items: center;
     background: #ddd;
     font-size: 20px;
     font-weight: bold;
@@ -176,12 +179,12 @@ span{
     text-decoration: line-through;
     letter-spacing: 3px;
     color: #555;
-    width: 120px;
+    width: 98%;
     justify-content: center;
     border: 2px solid #333;
 }
 .captcha{
-    display:block       ;
+    display: GRID;
         background: white;
         padding: 0px;
         box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
