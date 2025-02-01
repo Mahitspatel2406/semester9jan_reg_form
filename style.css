@@ -5,6 +5,9 @@ body {
     background-color: #fcfcfc;
     /* Light Blue Background */
 }
+.fast{
+    display: block  ;
+}
 
 h1{
     text-align: center;
@@ -154,3 +157,33 @@ span{
     font-size: larger;
     color: #000000;
 }
+.footer{
+    text-align: center;
+}
+.captcha-input {
+    margin-top: 10px;
+    padding: 5px;
+    /* width: 100px; */
+    text-align: center;
+}
+.captcha-box {
+    display: flex;
+    align-items: center;
+    background: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: line-through;
+    letter-spacing: 3px;
+    color: #555;
+    width: 120px;
+    justify-content: center;
+    border: 2px solid #333;
+}
+.captcha{
+    display:block       ;
+        background: white;
+        padding: 0px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        /* text-align: center; */
+    }
